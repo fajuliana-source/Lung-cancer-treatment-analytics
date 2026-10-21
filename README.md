@@ -8,7 +8,7 @@
 
 ## 1. Project Overview
 
-![Lung Cancer Treatment Analytics Dashboard](./Lung_Cancer_Dashboard.png)
+![Lung Cancer Treatment Analytics Dashboard](./Lung_cancer_dashboard.png)
 
 This project presents a clinical and epidemiological analysis of 890,000 lung cancer patient records across 27 European nations using Microsoft Excel and Power Query.
 
@@ -94,7 +94,7 @@ The complete workbook, raw dataset reference, and visual assets are structured a
 
 * **Excel Workbook:** [`Lung_Cancer_Analysis.xlsx`](./Lung_Cancer_Analysis.xlsx) *(Contains navigation sidebar, cleaned data, pivot engine, and main dashboard)*
 * **Raw Dataset Reference:** Sourced from [Kaggle Lung Cancer Dataset](Lung_Cancer.csv) 
-* **Main Dashboard Screenshot:** [`Lung_Cancer_Dashboard.png`](./Lung_Cancer_Dashboard.png)
+* **Main Dashboard Screenshot:** [`Lung_cancer_dashboard.png`](./Lung_Cancer_Dashboard.png)
 
 ### Dashboard Layout & Interactive Mechanics
 * **Header Bar:** Displays title and cohort context ("890,000 patients across 27 European countries").
