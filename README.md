@@ -92,9 +92,9 @@ The project followed a structured 3-phase methodology:
 
 The complete workbook, raw dataset reference, and visual assets are structured as follows:
 
-* **Excel Workbook:** [`Lung_Cancer_Analysis.xlsx`](./Lung_Cancer_Analysis.zip) *(Contains navigation sidebar, cleaned data, pivot engine, and main dashboard)*
-* **Raw Dataset Reference:** Sourced from [Kaggle Lung Cancer Dataset](Lung_Cancer.csv) 
-* **Main Dashboard Screenshot:** [`Lung_cancer_dashboard.png`](./Lung_Cancer_Dashboard.png)
+* **Excel Workbook:**  *(Contains navigation sidebar, cleaned data, pivot engine, and main dashboard)*
+* **Raw Dataset Reference:** Sourced from Kaggle Lung Cancer Dataset 
+* **Main Dashboard Screenshot:** ![`Lung_cancer_dashboard.png`](./Lung_Cancer_Dashboard.png)
 
 ### Dashboard Layout & Interactive Mechanics
 * **Header Bar:** Displays title and cohort context ("890,000 patients across 27 European countries").
