@@ -94,7 +94,7 @@ The complete workbook, raw dataset reference, and visual assets are structured a
 
 * **Excel Workbook:**  *(Contains navigation sidebar, cleaned data, pivot engine, and main dashboard)*
 * **Raw Dataset Reference:** Sourced from Kaggle Lung Cancer Dataset 
-* **Main Dashboard Screenshot:** ![`Lung_cancer_dashboard.png`](./Lung_Cancer_Dashboard.png)
+* **Main Dashboard Screenshot:** ![`Lung_cancer_dashboard.png`](./Lung_cancer_dashboard.png)
 
 ### Dashboard Layout & Interactive Mechanics
 * **Header Bar:** Displays title and cohort context ("890,000 patients across 27 European countries").
