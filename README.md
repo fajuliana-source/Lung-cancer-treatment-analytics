@@ -14,7 +14,7 @@ This project presents a clinical and epidemiological analysis of 890,000 lung ca
 
 The analysis evaluates patient outcomes across disease progression stages (*Stage I, Stage II, Stage III, Stage IV*), primary treatment modalities (*Chemotherapy, Surgery, Radiation, Combined Therapy*), comorbidities (*Asthma, Hypertension, Cirrhosis*), and lifestyle risk factors (*Smoking Status, BMI*).
 
-The workbook features an **Application-Style Navigation Sidebar** (`DASHBOARD`, `ANALYTICS`, `SPREADSHEET`), enabling clinical researchers and healthcare decision-makers to move seamlessly between raw patient logs, multi-dimensional pivot engine calculations, and executive dashboard visualizations.
+The workbook and dashboard features an **Application-Style Navigation Sidebar** (`DASHBOARD`, `ANALYTICS`, `SPREADSHEET`), enabling clinical researchers and healthcare decision-makers to move seamlessly between raw patient logs, multi-dimensional pivot engine calculations, and executive dashboard visualizations.
 
 ---
 
@@ -67,7 +67,7 @@ To support clinical planning and healthcare resource management, this analysis a
 
 ## 6. Data Cleaning and Preparation
 
-The raw dataset[Raw_data](./Lung_Cancer.csv) required transformation to convert binary coded fields and raw dates into a clinical model:
+The raw dataset required transformation to convert binary coded fields and raw dates into a clinical model:
 
 * **Categorical Relabeling:** Converted binary numeric flags (`0` / `1`) into clear clinical categories (`Non-Hypertensive` / `Hypertensive`, `Non-Asthmatic` / `Asthmatic`, `No` / `Yes` for Cirrhosis and Other Cancers, and `Died` / `Survived` for clinical outcomes).
 * **Treatment Duration Calculation:** Computed active care duration in days by subtracting `diagnosis_date` from `end_treatment_date`.
@@ -92,7 +92,7 @@ The project followed a structured 3-phase methodology:
 
 The complete workbook, raw dataset reference, and visual assets are structured as follows:
 
-* **Excel Workbook:** [`Lung_Cancer_Analysis.xlsx`](./Lung_Cancer_Analysis.xlsx) *(Contains navigation sidebar, cleaned data, pivot engine, and main dashboard)*
+* **Excel Workbook:** [`Lung_Cancer_Analysis.xlsx`](./Lung_Cancer_Analysis.zip) *(Contains navigation sidebar, cleaned data, pivot engine, and main dashboard)*
 * **Raw Dataset Reference:** Sourced from [Kaggle Lung Cancer Dataset](Lung_Cancer.csv) 
 * **Main Dashboard Screenshot:** [`Lung_cancer_dashboard.png`](./Lung_Cancer_Dashboard.png)
 
