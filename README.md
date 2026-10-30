@@ -67,12 +67,20 @@ To support clinical planning and healthcare resource management, this analysis a
 
 ## 6. Data Cleaning and Preparation
 
-The raw dataset required transformation to convert binary coded fields and raw dates into a clinical model:
+Because the raw dataset contains 890,000 patient records (exceeding standard repository file size limits), data preparation and feature engineering were performed in Excel and Power Query prior to pivot aggregation. The raw data required structural re-labeling and date calculations to transform binary flags into a clinical model.
 
-* **Categorical Relabeling:** Converted binary numeric flags (`0` / `1`) into clear clinical categories (`Non-Hypertensive` / `Hypertensive`, `Non-Asthmatic` / `Asthmatic`, `No` / `Yes` for Cirrhosis and Other Cancers, and `Died` / `Survived` for clinical outcomes).
+### Raw Dataset (Before Transformation)
+![Raw Dataset Before Cleaning](./Raw_Data_Before.png)
+
+Key data cleaning and preparation steps included:
+
+* **Categorical Relabeling:** Converted binary numeric flags (`0` / `1`) into clear clinical text categories (`Non-Hypertensive` / `Hypertensive`, `Non-Asthmatic` / `Asthmatic`, `No` / `Yes` for Cirrhosis and Other Cancers, and `Died` / `Survived` for clinical outcomes).
 * **Treatment Duration Calculation:** Computed active care duration in days by subtracting `diagnosis_date` from `end_treatment_date`.
 * **Data Type Standardization:** Formatted patient age and cholesterol as Whole Numbers, BMI as Decimals, diagnosis/end dates as Standard Dates, and categorical fields as Text.
 * **Data Quality Audit:** Reviewed all 890,000 rows for structural completeness, verifying zero duplicate patient IDs or negative date durations before aggregating metrics.
+
+### Cleaned Dataset (After Transformation)
+![Cleaned Dataset After Preparation](./Cleaned_Data_After.png)
 
 ---
 
@@ -171,7 +179,7 @@ Based on these findings, healthcare administrators and clinical directors should
 
 ---
 
-## Author and Contact
+## Author and Contact 
 
 **Fatolu Adedoyin Juliana**  
 *Data Analyst | Statistics Graduate | Research Analyst*
